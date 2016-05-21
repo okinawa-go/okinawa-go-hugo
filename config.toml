@@ -1,0 +1,86 @@
+baseurl = "http://okinawa-go.github.io"
+title = "Golang 勉強会 in Okinawa"
+theme = "hugo-creative-theme"
+
+[params]
+	name = "Golang 勉強会 in Okinawa"
+	description = "沖縄でGolangの勉強会を開催するコミュニティです。"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "Golang 勉強会 in Okinawa"
+
+		[params.navigation.links]
+			about     = "About"
+#			services  = "Services"
+#			portfolio = "Portfolio"
+#			contact   = "Contact"
+
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Golang 勉強会 in Okinawa"
+		subtitle   = "沖縄でGoの勉強会を開催するコミュニティです。"
+		buttonText = "イベント開催情報"
+		buttonLink = "https://okinawa-go.doorkeeper.jp/"
+
+
+	# About section
+	[params.about]
+		headline    = "okinawa.go について"
+		description = "沖縄でGolangの勉強をするために集まったエンジニア達の集うコミュニティです。golangにご興味のある方はどなたでも参加できます。Slackの[自動招待フォームはこちら](http://bit.ly/okinawa-golang-slack)。イベント開催情報は[doorkeeper](https://okinawa-go.doorkeeper.jp/)に、このWebサイトや「すごい広島方式」で[モクモク勉強会をサポートするIssue管理](https://github.com/okinawa-go/okinawa-go.github.io/issues) は[GitHubリポジトリ](https://github.com/okinawa-go)にあります。"
+		buttonText  = "Get started!"
+		buttonLink  = "https://github.com/okinawa-go/okinawa-go.github.io/issues"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Sturdy Templates"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Ready to Ship"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
