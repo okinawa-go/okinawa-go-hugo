@@ -1,18 +1,18 @@
 #!/bin/bash
 
-src="./public/"
-dest="../../r3it.github.io"
+src="./public/*"
+dest="../okinawa-go.github.io/"
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 \rm -rf $src
 
-# copy files
-cp -r $src $dest
-
 # Build the project. 
 hugo -t hugo-creative-theme
 # if using a theme, replace by `hugo -t <yourtheme>`
+
+# copy files
+cp -r $src $dest
 
 cd $dest
 # Add changes to git.
