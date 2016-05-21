@@ -1,4 +1,4 @@
-baseurl = "http://okinawa-go.github.io"
+baseurl = "http://okinawa-go.github.io/"
 title = "Golang 勉強会 in Okinawa"
 theme = "hugo-creative-theme"
 
