@@ -1,7 +1,7 @@
 #!/bin/bash
 
 src="./public/"
-dest="../r3it.github.io"
+dest="../../r3it.github.io"
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
